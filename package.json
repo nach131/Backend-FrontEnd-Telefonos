@@ -1,0 +1,36 @@
+{
+  "name": "backend-frontend-telefonos",
+  "version": "1.0.0",
+  "description": "Agenda de telefonos Ejercicios del Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "nach": "nodemon app/",
+    "puerto": "./puerto.sh",
+    "nachp": "npm run puerto && npm run nach"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nach131/Backend-FrontEnd-Telefonos.git"
+  },
+  "author": "Nach131",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nach131/Backend-FrontEnd-Telefonos/issues"
+  },
+  "homepage": "https://github.com/nach131/Backend-FrontEnd-Telefonos#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "10.0.0",
+    "express": "4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "2.0.12"
+  },
+  "devDependencies": {
+    "mongoose": "5.13.8",
+    "standard": "16.0.3"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
